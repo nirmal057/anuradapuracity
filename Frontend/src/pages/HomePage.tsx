@@ -15,7 +15,7 @@ export function HomePage() {
         {/* Background with parallax effect */}
         <div className="absolute inset-0">
           <img 
-            src="/pic/ruwanwanwaliseya/pic 1.jpg" 
+            src="/pic/ruwanwanwaliseya/p1.jpg" 
             alt="Anuradhapura Ancient City Sacred Stupas" 
             className="w-full h-full object-cover scale-105 animate-[float_6s_ease-in-out_infinite]" 
           />

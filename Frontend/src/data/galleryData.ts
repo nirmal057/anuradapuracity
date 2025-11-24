@@ -15,7 +15,7 @@ export const galleryData: GalleryImage[] = [{
   location: 'Mahamevnāwa Gardens'
 }, {
   id: 'img-2',
-  url: '/pic/ruwanwanwaliseya/pic 1.jpg',
+  url: '/pic/ruwanwanwaliseya/p1.jpg',
   title: 'Ruwanwelisaya Stupa at Sunset',
   caption: 'The magnificent white dome of Ruwanwelisaya (103m tall), built by King Dutugemunu in 140 BCE, glowing in the golden evening light',
   credit: 'Local Photography',

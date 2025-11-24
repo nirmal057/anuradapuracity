@@ -64,9 +64,9 @@ export const sightsData: Sight[] = [{
     lat: 8.3489,
     lng: 80.3964
   },
-  image: '/pic/ruwanwanwaliseya/pic 1.jpg',
+  image: '/pic/ruwanwanwaliseya/p1.jpg',
   gallery: [
-    '/pic/ruwanwanwaliseya/pic 1.jpg',
+    '/pic/ruwanwanwaliseya/p1.jpg',
     '/pic/ruwanwanwaliseya/p2.jpg',
     '/pic/ruwanwanwaliseya/p3.jpg',
     '/pic/ruwanwanwaliseya/p4.jpg',
