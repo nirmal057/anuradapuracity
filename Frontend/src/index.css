@@ -1,0 +1,131 @@
+/* URL IMPORTS (SUCH AS FONT IMPORTS) SHOULD BE KEPT ABOVE TAILWIND IMPORTS - DO NOT DELETE THIS COMMENT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+/* PLEASE NOTE: THESE TAILWIND IMPORTS SHOULD NEVER BE DELETED - DO NOT DELETE THIS COMMENT */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+/* DO NOT DELETE THESE TAILWIND IMPORTS, OTHERWISE THE STYLING WILL NOT RENDER AT ALL - DO NOT DELETE THIS COMMENT */
+
+/* Modern Ancient City Theme Custom Styles */
+@layer base {
+  * {
+    @apply transition-colors duration-200;
+  }
+
+  body {
+    @apply bg-gradient-to-br from-stone-50 via-amber-50/30 to-stone-50 text-stone-900;
+    font-feature-settings: 'liga', 'kern';
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display text-stone-800;
+    font-feature-settings: 'liga', 'dlig';
+  }
+}
+
+@layer components {
+  /* Glass morphism card */
+  .glass-card {
+    @apply backdrop-blur-xl bg-white/70 border border-white/20 shadow-glass;
+  }
+
+  .glass-card-dark {
+    @apply backdrop-blur-xl bg-primary/10 border border-primary/20 shadow-glass;
+  }
+
+  /* Modern gradient button */
+  .btn-gradient {
+    @apply bg-gradient-to-r from-primary to-accent text-white font-medium px-6 py-3 rounded-xl shadow-lg hover:shadow-glow transform hover:-translate-y-0.5 transition-all duration-300;
+  }
+
+  /* Smooth image overlay */
+  .image-overlay {
+    @apply relative overflow-hidden rounded-2xl;
+  }
+
+  .image-overlay::after {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 transition-opacity duration-300;
+  }
+
+  .image-overlay:hover::after {
+    @apply opacity-100;
+  }
+
+  /* Modern card hover effect */
+  .modern-card {
+    @apply bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300 border border-stone-100;
+  }
+
+  /* Accent border */
+  .accent-border {
+    @apply border-l-4 border-accent;
+  }
+
+  /* Decorative gradient line */
+  .gradient-line {
+    @apply h-1 bg-gradient-to-r from-transparent via-accent to-transparent;
+  }
+
+  /* Ancient pattern with modern twist */
+  .ancient-pattern {
+    background-image: 
+      repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 10px,
+        rgba(139, 69, 19, 0.02) 10px,
+        rgba(139, 69, 19, 0.02) 20px
+      );
+  }
+
+  /* Mesh gradient background */
+  .mesh-bg {
+    @apply bg-mesh-gradient;
+  }
+
+  /* Smooth scroll */
+  html {
+    @apply scroll-smooth;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-stone-100;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-gradient-to-b from-primary to-accent rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply from-primary-dark to-accent-dark;
+  }
+
+  /* Hover glow effect */
+  .hover-glow {
+    @apply transition-all duration-300;
+  }
+
+  .hover-glow:hover {
+    @apply shadow-glow;
+  }
+
+  /* Badge styles */
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-medium;
+  }
+
+  .badge-primary {
+    @apply bg-primary/10 text-primary border border-primary/20;
+  }
+
+  .badge-accent {
+    @apply bg-accent/10 text-accent-700 border border-accent/20;
+  }
+}
