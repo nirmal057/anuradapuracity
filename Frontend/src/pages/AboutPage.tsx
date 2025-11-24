@@ -10,7 +10,7 @@ export function AboutPage() {
       />
 
       {/* Modern Hero Section */}
-      <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[70vh] sm:h-[60vh] min-h-[400px] sm:min-h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img 
             src="/pic/anuradhapura/a1.jpg" 
@@ -19,29 +19,29 @@ export function AboutPage() {
           />
           <div className="absolute inset-0 mesh-gradient" />
         </div>
-        <div className="relative z-10 text-center max-w-5xl mx-auto px-4">
-          <span className="badge bg-white/90 backdrop-blur-sm text-primary border-0 shadow-lg text-base px-5 py-2.5 mb-6 inline-block animate-fade-in">
+        <div className="relative z-10 text-center max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <span className="badge bg-white/90 backdrop-blur-sm text-primary border-0 shadow-lg text-sm sm:text-base px-4 sm:px-5 py-2 sm:py-2.5 mb-4 sm:mb-6 inline-block animate-fade-in">
             UNESCO World Heritage Site Since 1982
           </span>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-white mb-6 drop-shadow-2xl animate-slide-up">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-display font-bold text-white mb-4 sm:mb-6 drop-shadow-2xl animate-slide-up">
             ANURADHAPURA
           </h1>
-          <div className="gradient-line w-32 mx-auto mb-6 animate-scale-in"></div>
-          <p className="text-2xl md:text-4xl font-display text-accent-100 tracking-wide drop-shadow-lg animate-fade-in">
+          <div className="gradient-line w-24 sm:w-32 mx-auto mb-4 sm:mb-6 animate-scale-in"></div>
+          <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-display text-accent-100 tracking-wide drop-shadow-lg animate-fade-in px-4">
             2,300 Years of Sacred History
           </p>
         </div>
       </section>
 
       {/* Modern Introduction */}
-      <section className="py-24 bg-gradient-to-b from-stone-50 via-white to-stone-50">
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-b from-stone-50 via-white to-stone-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <span className="badge badge-primary text-base px-4 py-2 mb-4 inline-block">About the Ancient City</span>
-            <h2 className="text-4xl md:text-6xl font-display font-bold text-primary mb-4">
+          <div className="text-center mb-10 sm:mb-12 md:mb-16">
+            <span className="badge badge-primary text-sm sm:text-base px-3 sm:px-4 py-1.5 sm:py-2 mb-3 sm:mb-4 inline-block">About the Ancient City</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-primary mb-3 sm:mb-4 px-4">
               The Sacred Ancient City
             </h2>
-            <div className="gradient-line w-32 mx-auto"></div>
+            <div className="gradient-line w-24 sm:w-32 mx-auto"></div>
           </div>
 
           <div className="glass-card rounded-3xl p-10 md:p-16 accent-border mb-12 hover-glow">

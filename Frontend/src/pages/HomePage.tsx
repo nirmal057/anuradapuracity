@@ -11,7 +11,7 @@ export function HomePage() {
       <SEO title="Anuradhapura — Sacred Ancient City | UNESCO World Heritage Site | Sri Lanka" description="Explore Anuradhapura, Sri Lanka's first capital (4th century BCE - 11th century CE). Visit sacred Jaya Sri Maha Bodhi, magnificent stupas, ancient monasteries. Complete visitor guide with maps and travel tips." url="https://anuradhapura-heritage.com" />
 
       {/* Hero Section with Modern Aesthetic */}
-      <section className="relative h-[95vh] min-h-[700px] flex items-center justify-center overflow-hidden">
+      <section className="relative h-[100vh] sm:h-[95vh] min-h-[600px] sm:min-h-[700px] flex items-center justify-center overflow-hidden">
         {/* Background with parallax effect */}
         <div className="absolute inset-0">
           <img 
@@ -25,34 +25,34 @@ export function HomePage() {
           <div className="absolute inset-0 bg-mesh-gradient opacity-40" />
         </div>
 
-        <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
+        <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Modern decorative element */}
-          <div className="mb-8 flex justify-center">
-            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full border border-white/20">
-              <Landmark size={16} className="text-accent-200" />
-              <span className="text-sm text-white/90 font-medium">UNESCO World Heritage Site</span>
+          <div className="mb-6 sm:mb-8 flex justify-center">
+            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md px-3 sm:px-4 py-1.5 sm:py-2 rounded-full border border-white/20">
+              <Landmark size={14} className="text-accent-200 sm:w-4 sm:h-4" />
+              <span className="text-xs sm:text-sm text-white/90 font-medium">UNESCO World Heritage Site</span>
             </div>
           </div>
           
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-display font-black text-white mb-6 leading-tight tracking-tight drop-shadow-2xl animate-fade-in">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-display font-black text-white mb-4 sm:mb-6 leading-tight tracking-tight drop-shadow-2xl animate-fade-in">
             Anuradhapura
           </h1>
-          <p className="text-2xl md:text-3xl font-display text-accent-200 mb-6 tracking-wide animate-slide-up">
+          <p className="text-xl sm:text-2xl md:text-3xl font-display text-accent-200 mb-4 sm:mb-6 tracking-wide animate-slide-up">
             The Sacred Ancient City
           </p>
-          <p className="text-lg md:text-xl text-white/95 mb-10 max-w-3xl mx-auto leading-relaxed font-light animate-slide-up">
+          <p className="text-base sm:text-lg md:text-xl text-white/95 mb-8 sm:mb-10 max-w-3xl mx-auto leading-relaxed font-light animate-slide-up px-4">
             Journey through 2,300 years of Buddhist heritage. From the world's oldest living tree to colossal stupas 
             rising above ancient ruins — discover Sri Lanka's first kingdom and spiritual heart.
           </p>
           
-          <div className="mb-10 flex flex-wrap justify-center gap-6 text-white/90 text-sm">
-            <div className="glass-card-dark px-4 py-2 rounded-full flex items-center gap-2">
-              <Clock size={18} className="text-accent-300" />
-              <span className="font-medium">4th Century BCE - 11th Century CE</span>
+          <div className="mb-8 sm:mb-10 flex flex-wrap justify-center gap-3 sm:gap-6 text-white/90 text-xs sm:text-sm px-4">
+            <div className="glass-card-dark px-3 sm:px-4 py-1.5 sm:py-2 rounded-full flex items-center gap-2">
+              <Clock size={14} className="text-accent-300 sm:w-[18px] sm:h-[18px]" />
+              <span className="font-medium whitespace-nowrap">4th Century BCE - 11th Century CE</span>
             </div>
-            <div className="glass-card-dark px-4 py-2 rounded-full flex items-center gap-2">
-              <MapPin size={18} className="text-accent-300" />
-              <span className="font-medium">205 km north of Colombo</span>
+            <div className="glass-card-dark px-3 sm:px-4 py-1.5 sm:py-2 rounded-full flex items-center gap-2">
+              <MapPin size={14} className="text-accent-300 sm:w-[18px] sm:h-[18px]" />
+              <span className="font-medium whitespace-nowrap">205 km north of Colombo</span>
             </div>
           </div>
 
@@ -87,19 +87,19 @@ export function HomePage() {
       </section>
 
       {/* Introduction with Modern Glass Card */}
-      <section className="py-24 bg-gradient-to-b from-stone-50 via-amber-50/30 to-stone-50">
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-b from-stone-50 via-amber-50/30 to-stone-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-5xl mx-auto">
-            <div className="text-center mb-12">
-              <span className="badge badge-primary text-base px-4 py-2 mb-4 inline-block">Ancient Heritage</span>
-              <h2 className="text-4xl md:text-6xl font-display font-bold text-primary mb-4">
+            <div className="text-center mb-8 sm:mb-10 md:mb-12">
+              <span className="badge badge-primary text-sm sm:text-base px-3 sm:px-4 py-1.5 sm:py-2 mb-3 sm:mb-4 inline-block">Ancient Heritage</span>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-primary mb-3 sm:mb-4 px-4">
                 Ancient Capital of Kings
               </h2>
-              <div className="gradient-line w-32 mx-auto"></div>
+              <div className="gradient-line w-24 sm:w-32 mx-auto"></div>
             </div>
             
-            <div className="glass-card rounded-3xl p-8 md:p-12 accent-border hover-glow">
-              <p className="text-lg md:text-xl text-stone-700 leading-relaxed mb-6">
+            <div className="glass-card rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 accent-border hover-glow">
+              <p className="text-base sm:text-lg md:text-xl text-stone-700 leading-relaxed mb-4 sm:mb-6">
                 Anuradhapura stands as Sri Lanka's most sacred ancient city, a <strong className="text-primary font-semibold">UNESCO World Heritage Site</strong> 
                 where history and spirituality intertwine. For over <strong className="text-primary font-semibold">1,400 years</strong> (4th century BCE to 1017 CE), 
                 it served as the island's capital, witnessing the rise of Buddhist civilization and remarkable achievements in art, 
@@ -121,20 +121,20 @@ export function HomePage() {
       </section>
 
       {/* Featured Sacred Sites with Modern Cards */}
-      <section className="py-24 bg-gradient-to-b from-stone-100 to-stone-50">
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-b from-stone-100 to-stone-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <span className="badge badge-accent text-base px-4 py-2 mb-4 inline-block">Sacred Heritage</span>
-            <h2 className="text-4xl md:text-6xl font-display font-bold text-primary mb-4">
+          <div className="text-center mb-10 sm:mb-12 md:mb-16">
+            <span className="badge badge-accent text-sm sm:text-base px-3 sm:px-4 py-1.5 sm:py-2 mb-3 sm:mb-4 inline-block">Sacred Heritage</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-primary mb-3 sm:mb-4 px-4">
               Sacred Monuments & Sites
             </h2>
-            <div className="gradient-line w-32 mx-auto mb-6"></div>
-            <p className="text-xl text-stone-600 max-w-3xl mx-auto leading-relaxed">
+            <div className="gradient-line w-24 sm:w-32 mx-auto mb-4 sm:mb-6"></div>
+            <p className="text-base sm:text-lg md:text-xl text-stone-600 max-w-3xl mx-auto leading-relaxed px-4">
               Eight essential monuments and sacred sites that define Anuradhapura's spiritual and architectural legacy
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-10 sm:mb-12">
             {featuredSights.map((sight, index) => (
               <Link 
                 key={sight.id} 
@@ -185,18 +185,18 @@ export function HomePage() {
       </section>
 
       {/* Essential Visitor Information with Modern Glass Cards */}
-      <section className="py-24 bg-gradient-to-b from-stone-50 to-white mesh-bg">
+      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-b from-stone-50 to-white mesh-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <span className="badge badge-primary text-base px-4 py-2 mb-4 inline-block">Visitor Guide</span>
-            <h2 className="text-4xl md:text-6xl font-display font-bold text-primary mb-4">
+          <div className="text-center mb-10 sm:mb-12 md:mb-16">
+            <span className="badge badge-primary text-sm sm:text-base px-3 sm:px-4 py-1.5 sm:py-2 mb-3 sm:mb-4 inline-block">Visitor Guide</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-primary mb-3 sm:mb-4 px-4">
               Plan Your Journey
             </h2>
-            <div className="gradient-line w-32 mx-auto mb-6"></div>
-            <p className="text-xl text-stone-600">Essential information for visiting the ancient city</p>
+            <div className="gradient-line w-24 sm:w-32 mx-auto mb-4 sm:mb-6"></div>
+            <p className="text-base sm:text-lg md:text-xl text-stone-600 px-4">Essential information for visiting the ancient city</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
             <div className="glass-card rounded-2xl p-8 accent-border hover-glow group">
               <div className="mb-6 p-4 bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl w-fit group-hover:scale-110 transition-transform">
                 <MapPin size={44} className="text-primary" />
@@ -246,7 +246,7 @@ export function HomePage() {
       </section>
 
       {/* Call to Action with Modern Design */}
-      <section className="relative py-32 overflow-hidden">
+      <section className="relative py-16 sm:py-20 md:py-24 lg:py-32 overflow-hidden">
         {/* Mesh gradient background */}
         <div className="absolute inset-0 mesh-gradient opacity-90" />
         
@@ -254,17 +254,17 @@ export function HomePage() {
         <div className="absolute top-10 left-10 w-72 h-72 bg-accent/20 rounded-full blur-3xl animate-float" />
         <div className="absolute bottom-10 right-10 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
         
-        <div className="relative z-10 max-w-5xl mx-auto px-4 text-center">
-          <div className="glass-card rounded-3xl p-12 md:p-16 accent-border">
-            <span className="badge bg-white/90 backdrop-blur-sm text-primary border-0 shadow-lg text-base px-4 py-2 mb-6 inline-block">
+        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="glass-card rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 lg:p-16 accent-border">
+            <span className="badge bg-white/90 backdrop-blur-sm text-primary border-0 shadow-lg text-sm sm:text-base px-3 sm:px-4 py-1.5 sm:py-2 mb-4 sm:mb-6 inline-block">
               Start Your Journey
             </span>
             
-            <h2 className="text-4xl md:text-6xl font-display font-bold mb-6 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold mb-4 sm:mb-6 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent px-4">
               Walk Through 2,300 Years of History
             </h2>
             
-            <p className="text-xl md:text-2xl text-stone-700 mb-10 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-stone-700 mb-8 sm:mb-10 leading-relaxed max-w-3xl mx-auto px-4">
               Discover the sacred monuments, ancient ruins, and spiritual heritage that make Anuradhapura 
               a UNESCO World Heritage Site
             </p>

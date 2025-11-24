@@ -16,11 +16,26 @@
   body {
     @apply bg-gradient-to-br from-stone-50 via-amber-50/30 to-stone-50 text-stone-900;
     font-feature-settings: 'liga', 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   
   h1, h2, h3, h4, h5, h6 {
     @apply font-display text-stone-800;
     font-feature-settings: 'liga', 'dlig';
+  }
+
+  /* Better mobile text selection */
+  ::selection {
+    @apply bg-accent/30 text-primary;
+  }
+
+  /* Improve touch targets on mobile */
+  @media (max-width: 768px) {
+    a, button {
+      min-height: 44px;
+      min-width: 44px;
+    }
   }
 }
 
@@ -127,5 +142,32 @@
 
   .badge-accent {
     @apply bg-accent/10 text-accent-700 border border-accent/20;
+  }
+
+  /* Responsive text utilities */
+  .text-responsive-xl {
+    @apply text-xl sm:text-2xl md:text-3xl lg:text-4xl;
+  }
+
+  .text-responsive-2xl {
+    @apply text-2xl sm:text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  .text-responsive-3xl {
+    @apply text-3xl sm:text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  /* Responsive spacing utilities */
+  .section-padding {
+    @apply py-12 sm:py-16 md:py-20 lg:py-24;
+  }
+
+  .section-padding-sm {
+    @apply py-8 sm:py-12 md:py-16;
+  }
+
+  /* Container with responsive padding */
+  .container-responsive {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 }
