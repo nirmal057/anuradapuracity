@@ -9,7 +9,7 @@ export function PlanVisitPage() {
       {/* Hero */}
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/36/85/61/kuttam-pokuna-twin-ponds.jpg" alt="Planning your visit to Anuradhapura" className="w-full h-full object-cover" />
+          <img src="/pic/kuttam pokuna/k1.jpg" alt="Planning your visit to Anuradhapura" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black/50" />
         </div>
         <div className="relative z-10 text-center px-4">

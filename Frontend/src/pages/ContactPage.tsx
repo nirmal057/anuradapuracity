@@ -9,7 +9,7 @@ export function ContactPage() {
       {/* Hero */}
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="https://live.staticflickr.com/65535/53561515595_c8e7c5e8a7_k.jpg" alt="Book a guide for Anuradhapura" className="w-full h-full object-cover" />
+          <img src="/pic/jaya sri maha bodhi/j1.jpg" alt="Book a guide for Anuradhapura" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black/50" />
         </div>
         <div className="relative z-10 text-center px-4">

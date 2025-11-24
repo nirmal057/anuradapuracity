@@ -36,11 +36,13 @@ export const sightsData: Sight[] = [{
     lat: 8.3433,
     lng: 80.4037
   },
-  image: 'https://live.staticflickr.com/65535/53561515548_a44de5584a_k.jpg',
+  image: '/pic/jaya sri maha bodhi/j1.jpg',
   gallery: [
-    'https://live.staticflickr.com/65535/53561515548_a44de5584a_k.jpg',
-    'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/9d/19/e0/sri-maha-bodhi.jpg',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Sri_Maha_Bodhi_Tree_-_Anuradhapura.jpg/1200px-Sri_Maha_Bodhi_Tree_-_Anuradhapura.jpg'
+    '/pic/jaya sri maha bodhi/j1.jpg',
+    '/pic/jaya sri maha bodhi/j2.jpg',
+    '/pic/jaya sri maha bodhi/j3.jpg',
+    '/pic/jaya sri maha bodhi/j4.jpg',
+    '/pic/jaya sri maha bodhi/j5.jpg'
   ]
 }, {
   id: 'ruwanwelisaya',
@@ -62,11 +64,14 @@ export const sightsData: Sight[] = [{
     lat: 8.3489,
     lng: 80.3964
   },
-  image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/53/4b/34/ruwanwelisaya.jpg',
+  image: '/pic/ruwanwanwaliseya/pic 1.jpg',
   gallery: [
-    'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/53/4b/34/ruwanwelisaya.jpg',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/SL_Anuradhapura_asv2020-01_img11_Ruwanwelisaya_Stupa.jpg/1920px-SL_Anuradhapura_asv2020-01_img11_Ruwanwelisaya_Stupa.jpg',
-    'https://live.staticflickr.com/4907/45461821484_0d64b6f3e8_k.jpg'
+    '/pic/ruwanwanwaliseya/pic 1.jpg',
+    '/pic/ruwanwanwaliseya/p2.jpg',
+    '/pic/ruwanwanwaliseya/p3.jpg',
+    '/pic/ruwanwanwaliseya/p4.jpg',
+    '/pic/ruwanwanwaliseya/p5.jpg',
+    '/pic/ruwanwanwaliseya/p6.jpg'
   ]
 }, {
   id: 'jetavanaramaya',
@@ -88,11 +93,13 @@ export const sightsData: Sight[] = [{
     lat: 8.3547,
     lng: 80.4031
   },
-  image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/ee/95/f4/jetavanaramaya.jpg',
+  image: '/pic/jethawanaramaya/j1.jpg',
   gallery: [
-    'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0e/ee/95/f4/jetavanaramaya.jpg',
-    'https://upload.wikimedia.org/wikipedia/commons/4/46/Jetavanaramaya_Stupa_profile.jpg',
-    'https://live.staticflickr.com/4833/45461821244_c9fb5fc0d1_k.jpg'
+    '/pic/jethawanaramaya/j1.jpg',
+    '/pic/jethawanaramaya/j2.jpg',
+    '/pic/jethawanaramaya/j3.jpg',
+    '/pic/jethawanaramaya/j4.jpg',
+    '/pic/jethawanaramaya/j5.jpg'
   ]
 }, {
   id: 'abhayagiri',
@@ -114,11 +121,13 @@ export const sightsData: Sight[] = [{
     lat: 8.3644,
     lng: 80.3981
   },
-  image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/f5/5e/e9/abhayagiri-dagoba.jpg',
+  image: '/pic/abhayagiriya/a1.jpg',
   gallery: [
-    'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/f5/5e/e9/abhayagiri-dagoba.jpg',
-    'https://live.staticflickr.com/4873/45461820824_5efc9f8bfe_k.jpg',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Abhayagiri_Stupa_Anuradhapura_001.jpg/1920px-Abhayagiri_Stupa_Anuradhapura_001.jpg'
+    '/pic/abhayagiriya/a1.jpg',
+    '/pic/abhayagiriya/a2.jpg',
+    '/pic/abhayagiriya/a3.jpg',
+    '/pic/abhayagiriya/a4.jpg',
+    '/pic/abhayagiriya/a5.jpg'
   ]
 }, {
   id: 'twin-ponds',
@@ -140,11 +149,12 @@ export const sightsData: Sight[] = [{
     lat: 8.3625,
     lng: 80.3992
   },
-  image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/36/85/61/twin-ponds-kuttam-pokuna.jpg',
+  image: '/pic/kuttam pokuna/k1.jpg',
   gallery: [
-    'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/36/85/61/twin-ponds-kuttam-pokuna.jpg',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Kuttam_Pokuna_%28Twin_Ponds%29%2C_Anuradhapura%2C_Sri_Lanka.jpg/1920px-Kuttam_Pokuna_%28Twin_Ponds%29%2C_Anuradhapura%2C_Sri_Lanka.jpg',
-    'https://live.staticflickr.com/4817/45461820514_3de17f2e0a_k.jpg'
+    '/pic/kuttam pokuna/k1.jpg',
+    '/pic/kuttam pokuna/k2.jpg',
+    '/pic/kuttam pokuna/k3.jpg',
+    '/pic/kuttam pokuna/k4.jpg'
   ]
 }, {
   id: 'thuparamaya',
@@ -166,11 +176,12 @@ export const sightsData: Sight[] = [{
     lat: 8.3441,
     lng: 80.4025
   },
-  image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/23/44/62/thuparamaya.jpg',
+  image: '/pic/thuparamaya/t1.jpg',
   gallery: [
-    'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/23/44/62/thuparamaya.jpg',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Thuparamaya_Dagoba%2C_Anuradhapura.jpg/1920px-Thuparamaya_Dagoba%2C_Anuradhapura.jpg',
-    'https://live.staticflickr.com/4824/45461820094_95f70c1f8a_k.jpg'
+    '/pic/thuparamaya/t1.jpg',
+    '/pic/thuparamaya/t2.jpg',
+    '/pic/thuparamaya/t3.jpg',
+    '/pic/thuparamaya/t4.jpg'
   ]
 }, {
   id: 'isurumuniya',
@@ -192,11 +203,12 @@ export const sightsData: Sight[] = [{
     lat: 8.3389,
     lng: 80.4011
   },
-  image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/bc/67/ca/isurumuniya-temple.jpg',
+  image: '/pic/isurumuniya/i1.jpg',
   gallery: [
-    'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/bc/67/ca/isurumuniya-temple.jpg',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Isurumuniya_Rock_Temple_-_Anuradhapura_-_01.jpg/1920px-Isurumuniya_Rock_Temple_-_Anuradhapura_-_01.jpg',
-    'https://live.staticflickr.com/4905/31394855707_e51f15f0b4_k.jpg'
+    '/pic/isurumuniya/i1.jpg',
+    '/pic/isurumuniya/i2.jpg',
+    '/pic/isurumuniya/i3.jpg',
+    '/pic/isurumuniya/i4.jpg'
   ]
 }, {
   id: 'mihintale',
@@ -218,11 +230,11 @@ export const sightsData: Sight[] = [{
     lat: 8.3506,
     lng: 80.5069
   },
-  image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/9e/48/dd/mihintale.jpg',
+  image: '/pic/mihinthalaya/m1.jpg',
   gallery: [
-    'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/9e/48/dd/mihintale.jpg',
-    'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Mihintale_Sri_Lanka_01.jpg/1920px-Mihintale_Sri_Lanka_01.jpg',
-    'https://live.staticflickr.com/4817/45461819664_f2b79fb0de_k.jpg'
+    '/pic/mihinthalaya/m1.jpg',
+    '/pic/mihinthalaya/m2.jpg',
+    '/pic/mihinthalaya/m3.jpg'
   ]
 }];
 export const getSightById = (id: string): Sight | undefined => {

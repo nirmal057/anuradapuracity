@@ -13,7 +13,7 @@ export function AboutPage() {
       <section className="relative h-[60vh] min-h-[500px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/SL_Anuradhapura_asv2020-01_img11_Ruwanwelisaya_Stupa.jpg/1200px-SL_Anuradhapura_asv2020-01_img11_Ruwanwelisaya_Stupa.jpg" 
+            src="/pic/anuradhapura/a1.jpg" 
             alt="Ruwanwelisaya Stupa Anuradhapura" 
             className="w-full h-full object-cover scale-105 animate-[float_6s_ease-in-out_infinite]" 
           />

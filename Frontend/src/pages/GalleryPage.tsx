@@ -8,7 +8,7 @@ export function GalleryPage() {
       {/* Hero */}
       <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/f5/5e/e9/abhayagiri-dagoba.jpg" alt="Anuradhapura photo gallery" className="w-full h-full object-cover" />
+          <img src="/pic/abhayagiriya/a1.jpg" alt="Anuradhapura photo gallery" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-black/50" />
         </div>
         <div className="relative z-10 text-center px-4">
